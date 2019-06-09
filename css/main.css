@@ -352,12 +352,13 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0;
     left: 0;
-    background: #ffffff;
-    opacity: 0;
+    /* background: #ffffff;
+    opacity: 0; */
 }
 
 .main .work a:hover .caption{
-    opacity: 1;
+    background: #ffffff;
+    /* opacity: 1; */
 }
 
 .work .caption .work_title{
