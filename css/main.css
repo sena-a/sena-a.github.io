@@ -352,6 +352,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0;
     left: 0;
+    color: white;
     /* background: #ffffff;
     opacity: 0; */
 }
