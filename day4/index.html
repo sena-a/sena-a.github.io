@@ -10,6 +10,8 @@
 
     <!--Description-->
     
+        <meta name="description" content="시옷즈 스터디 일지4">
+    
 
     <!--Author-->
     
@@ -18,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="day4">
+        <meta property="og:title" content="시옷즈 스터디 Day4">
     
 
     <!--Open Graph Site Name-->
@@ -31,7 +33,7 @@
 
     <!-- Title -->
     
-    <title>day4 - Hexo</title>
+    <title>시옷즈 스터디 Day4 - Hexo</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/reset.css">
@@ -120,16 +122,16 @@
 
     <ul class="btn clearfix">
         
-        <li><a href="/day5/" class="previous" data-title="day5"></a></li>
+        <li><a href="/day6/" class="previous" data-title="시옷즈 스터디 Day6"></a></li>
         
         <li><a href="/" class="grid" data-title="Portfolio"></a></li>
         
-        <li><a href="/day3/" class="next" data-title="day3"></a></li>
+        <li><a href="/day3/" class="next" data-title="시옷즈 스터디 Day3"></a></li>
         
     </ul>
 
 </div><!-- end work_nav -->
-            <h1 class="title">day4</h1>
+            <h1 class="title">시옷즈 스터디 Day4</h1>
         </div>
     </section><!-- end top -->
 
@@ -140,14 +142,47 @@
             
 
             <!-- Content -->
-            
+            <p>시옷즈 스터디 일지4</p>
+<a id="more"></a>
+
+<h2 id="Today-I-Learned"><a href="#Today-I-Learned" class="headerlink" title="Today I Learned"></a>Today I Learned</h2><hr>
+<h4 id="Exercism"><a href="#Exercism" class="headerlink" title="Exercism"></a>Exercism</h4><p>Custom Set</p>
+<h4 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h4><ul>
+<li>prototype</li>
+</ul>
+<h4 id="day4-퀴즈"><a href="#day4-퀴즈" class="headerlink" title="day4 퀴즈"></a>day4 퀴즈</h4><ol>
+<li>function Person(){}, const person = Person(), const person = new Person() 의 차이점은 무엇입니까?</li>
+</ol>
+<p>전자는 단순히 변수에 함수 값을 대입한 것이고, 후자는 Person() constructor가 person이란 이름의 인스턴스가 생성된 것 입니다.</p>
+<ol start="2">
+<li>호스트 객체와 내장 객체의 차이점은 무엇입니까?</li>
+</ol>
+<p>내장 객체는 JavaScript에 미리 생성되어있는 객체고, JavsScript 언어의 일부입니다.<br>호스트 객체는 런타임 환경에서 (브라우저 혹은 노드)에서 제공되는 객체입니다.</p>
+<ol start="3">
+<li>객체 속성을 반복할 때(또는 나열할 때) 사용하는 언어 구조는 무엇입니까?</li>
+</ol>
+<p>단순히 for문으로 객체의 속성을 나열할 때는 상속받는 속성도 나열되기 때문에, getOwnPropertyNames() 메소드를 쓰는 것이 좋습니다.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Object</span>.getOwnPropertyNames(obj).forEach(<span class="function"><span class="params">property</span> =&gt;</span> ...)</span><br></pre></td></tr></table></figure>
+
+<p>getOwnPropertyNames()은 전달하는 객체의 열거 가능한 속성과 열거되지 않는 모든 속성을 나열하는 정적 메서드</p>
+<ol start="4">
+<li>프로토타입 상속이 어떻게 작동하는지 설명하세요.</li>
+</ol>
+<p>프로토타입 상속은 실제 상속을 받았다기 보다는 연결되어있는 프로토타입에 존재하는 속성을 공유할 수 있기 때문에 이것을 상속이라고 표현하는 것인데, 해당 객체에 불러온 속성이 없으면 연결된 프로토타입 객체로 가서 해당 속성을 찾아보고, 또 속성이 없으면 그 프로토타입 객체에 연결된 프로토타입 객체로 가서 속성을 찾아보는 방식이며, 이를 프로토타입 체인이라고 합니다.</p>
+<ol start="5">
+<li>내장 객체 확장의 장단점</li>
+</ol>
+<p>원하는 메소드를 어디서든 편하게 쓸 수 있게 되지만, 내장 객체에 이미 존재하는 메소드를 덮어쓸 수 있고, 결국에는 원하는 대로 메소드가 동작하지 않을 수 있다는 매우 큰 위험이 있습니다.</p>
+<h2 id="일지"><a href="#일지" class="headerlink" title="일지"></a>일지</h2><hr>
+<p>프로토타입 넌 정말 나빳어</p>
+
 
             <!-- Tags -->
             
 
 
 <div class="tags">
-    
+    <a href="/tags/siotz/">siotz</a>
 </div>
 
 
