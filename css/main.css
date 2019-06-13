@@ -120,6 +120,7 @@ h5, h6          { font-weight: bolder }
         min-height: 100%;
         padding: 0 0 0 50px;
         background: #ffffff;
+        border-right: 1px solid #dee1fa;
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -352,13 +353,13 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0;
     left: 0;
-    color: white;
     /* background: #ffffff;
     opacity: 0; */
 }
 
 .main .work a:hover .caption{
-    background: #ffffff;
+    background: #dee1fa;
+    /* background: #ffffff; */
     /* opacity: 1; */
 }
 
